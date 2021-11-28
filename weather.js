@@ -16,7 +16,7 @@ function onGeoOk(position) {
       const city = data.name;
       const weather = data.weather[0].main;
       const temp = data.main.temp;
-      weatherEl.innerText = `${city} / ${weather} / ${temp}`;
+      weatherEl.innerText = `${city} / ${weather} / ${temp}℃`;
     });
   WeatherEl.classList.remove("hidden");
   WeatherNoneEl.classList.add("hidden");

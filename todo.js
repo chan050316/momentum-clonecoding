@@ -24,7 +24,7 @@ function paintToDo(newToDoObj) {
   const liEl = document.createElement('li');
   liEl.id = newToDoObj.id;
   const divEl = document.createElement('div');
-  divEl.innerText = "❕" + newToDoObj.text;
+  divEl.innerText = newToDoObj.text;
   const delButton = document.createElement('button');
   delButton.innerText = "X";
   delButton.addEventListener('click', deleteToDo);
