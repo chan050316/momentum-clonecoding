@@ -44,6 +44,15 @@ function saveToDos() {
   localStorage.setItem(TODOS_KEY, JSON.stringify(toDosDB));
 }
 
+function inputClick() {
+  console.log(toDoInputEl)
+  toDoInputEl.placeholder = "";
+}
+
+function inputBlur() {
+  toDoInputEl.placeholder = "Write a To Do and Press Enter.";
+}
+
 const savedToDo = localStorage.getItem(TODOS_KEY);
 if(savedToDo) {
   const parseToDos = JSON.parse(savedToDo);
@@ -52,3 +61,5 @@ if(savedToDo) {
 }
 
 toDoFormEl.addEventListener('submit', toDoSubmit);
+toDoInputEl.addEventListener('click', inputClick);
+toDoInputEl.addEventListener('blur', inputBlur);
