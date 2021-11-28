@@ -1,0 +1,117 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+.glassmorphism {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: white solid 2px;
+}
+input:focus {
+  outline: none;
+}
+
+
+body {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+}
+
+.first-section {
+  background-color: rgba(0, 0, 0, .1);
+  width: 32.5vw;
+}
+
+.middle-section {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle-section .clock {
+  height: 220px;
+  margin: 90px 0 20px 0;
+  font-size: 130px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  line-height: 220px;
+}
+
+.middle-section .login {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .loginForm {
+  color: white;
+  display: flex;
+  font-size: 30px;
+  font-weight: 300;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm .loginInput {
+  width: 200px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+
+.end-section {
+  width: 32.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.toDoListBox {
+  height: 260px; /*//////*/
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.toDoForm {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toDoInput {
+  width: 90%;
+  font-size: 20px;
+}
+
+.toDoInput::placeholder {
+  color: gray;
+}

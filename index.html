@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <section class="first-section">
+
+  </section>
+
+  <section class="middle-section">
+    <div class="clock glassmorphism" id="jsclock"></div>
+    <div class="login glassmorphism">
+      <form class="loginForm hidden" id="jsLoginForm">
+        Please answer your name.
+        <input type="text" class="loginInput" id="jsLoginInput">
+      </form>
+      <div class="greeting hidden" id="jsGreeting"></div>
+    </div>
+  </section>
+
+  <section class="end-section">
+    <div class="toDoListBox glassmorphism">
+      <ul id="jstoDoList">
+
+      </ul>
+      <form class="toDoForm glassmorphism" id="jsToDoForm">
+        <input type="text" class="toDoInput" id="jsToDoInput" placeholder="Write a To Do and Press Enter." required />
+      </form>
+    </div>
+  </section>
+  <script src="./backgroundImage.js"></script>
+  <script src="./clock.js"></script>
+  <script src="./login.js"></script>
+</body>
+
+</html>
