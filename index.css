@@ -85,13 +85,13 @@ body {
 }
 
 .middle-section .clock {
-  height: 220px;
-  margin: 90px 0 20px 0;
+  height: 210px;
+  margin: 90px 0 30px 0;
   font-size: 130px;
   font-weight: 300;
   color: white;
   text-align: center;
-  line-height: 220px;
+  line-height: 210px;
 }
 
 .middle-section .login {
