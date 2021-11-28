@@ -45,7 +45,6 @@ function saveToDos() {
 }
 
 function inputClick() {
-  console.log(toDoInputEl)
   toDoInputEl.placeholder = "";
 }
 
