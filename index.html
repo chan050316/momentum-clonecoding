@@ -18,7 +18,7 @@
   <section class="middle-section">
     <div class="clock glassmorphism" id="jsclock"></div>
     <div class="login glassmorphism">
-      <form class="loginForm hidden" id="jsLoginForm">
+      <form class="loginForm hidden" id="jsLoginForm" autocomplete="off">
         Please answer your name.
         <input type="text" class="loginInput" id="jsLoginInput">
       </form>
@@ -31,7 +31,7 @@
       <ul id="jstoDoList">
 
       </ul>
-      <form class="toDoForm glassmorphism" id="jsToDoForm">
+      <form class="toDoForm glassmorphism" id="jsToDoForm" autocomplete="off">
         <input type="text" class="toDoInput" id="jsToDoInput" placeholder="Write a To Do and Press Enter." required />
       </form>
     </div>
@@ -39,6 +39,7 @@
   <script src="./backgroundImage.js"></script>
   <script src="./clock.js"></script>
   <script src="./login.js"></script>
+  <script src="./todo.js"></script>
 </body>
 
 </html>
